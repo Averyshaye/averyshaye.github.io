@@ -1,5 +1,6 @@
 body {
-    background-color: #fe7f2d; 
+    background-color: white; 
+    text-align: center;
 }
 div {
     max-width: 1600px;
@@ -9,10 +10,7 @@ div {
     text-align: center;
 }
 #background{
-    height: 725px;
-}
-body {
-    background-color: #fe7f2d; 
+    height: 725px; 
 }
 header {
     background-color:#FCCA46(20,30,13, .7);
