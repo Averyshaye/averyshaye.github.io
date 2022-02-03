@@ -1,6 +1,9 @@
+header{
+    text-align: left;
+}
 body {
     background-color: white; 
-    text-align: center;
+    text-align:center;
 }
 div {
     max-width: 1600px;
@@ -20,6 +23,7 @@ header {
 nav a:hover {
     background-color: #233D4D;
     color: white;
+    text-align: center;
     text-decoration: none
 }
 .icon {
