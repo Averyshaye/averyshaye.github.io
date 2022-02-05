@@ -1,9 +1,31 @@
 header{
-    text-align: left;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2em;
+    padding-left: 10%;
+    background-color: #233D4D;
+    color: white
+}
+.logo{
+    padding-right: 100%;
 }
 body {
     background-color: white; 
     text-align:center;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 3em;
+}
+h2{ 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2em;
 }
 div {
     max-width: 1600px;
@@ -20,7 +42,7 @@ header {
     color: white
 }
 
-nav a:hover {
+nav a {
     background-color: #233D4D;
     color: white;
     text-align: center;
@@ -31,4 +53,22 @@ nav a:hover {
 }
 .logo {width: 80px;
 }
-
+.book, .join {
+    background-color: #FCCA46
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #233D4D;
+}
+main section img {
+    box-sizing: border-box;
+}
+footer{
+    background-color: #233D4D;
+    color: white;
+}
