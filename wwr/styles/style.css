@@ -9,6 +9,8 @@ header{
 }
 .logo{
     padding-right: 100%;
+    padding-top: 2%;
+    width: 4em;
 }
 body {
     background-color: white; 
@@ -50,8 +52,6 @@ nav a {
 }
 .icon {
     width: 80px;
-}
-.logo {width: 80px;
 }
 .book, .join {
     background-color: #FCCA46
