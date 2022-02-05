@@ -34,10 +34,7 @@ div {
     margin: 0 auto;
 }
 .hero-msg {
-    text-align: center;
-}
-#background{
-    height: 725px; 
+    text-align: center; 
 }
 header {
     background-color:#FCCA46(20,30,13, .7);
