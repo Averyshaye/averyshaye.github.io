@@ -22,8 +22,7 @@ body {
     text-align:center;
     font-family: 'Lato', sans-serif;
     margin: 0;
-    padding: 0;
-    
+    padding: 0
 }
 h1{
     font-family: 'Lato', sans-serif;
@@ -43,7 +42,6 @@ div {
     text-align: center; 
 }
 header {
-    background-color:#FCCA46(20,30,13, .7);
     color: white
 }
 
