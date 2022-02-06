@@ -14,7 +14,7 @@ header{
     padding-top: 2%;
     width: 3em;
 }
-.hero{
+.hero-box{
     width: 100%;
 }
 body {
@@ -73,4 +73,9 @@ main section img {
 footer{
     background-color: #233D4D;
     color: white;
+    text-align: left;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom:2%;
+    font-size: 60%;
 }
