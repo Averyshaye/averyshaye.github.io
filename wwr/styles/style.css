@@ -1,20 +1,21 @@
 header{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-family: 'Reenie Beanie', cursive;
     font-size: 2em;
     padding-left: 10%;
-    background-color: hsl(203, 37%, 22%);
+    background-color: rgb(35, 61, 77);
     color: #ffffff
-    font-family: 'Lato', sans-serif;
-    font-family: 'Reenie Beanie', cursive;
+    padding: 35px;
 }
 .logo{
     padding-right: 100%;
     padding-top: 2%;
     width: 3em;
 }
-.hero-box{
+.hero-img{
     width: 100%;
 }
 body {
@@ -40,22 +41,10 @@ div {
 }
 .hero-msg {
     text-align: center; 
-}
-header {
-    color: white
-}
-nav a {
-    background-color: #233D4D;
-    color: white;
-    text-align: center;
-    text-decoration: none
-    padding: 35px;
+    width: 100%;
 }
 .icon {
     width: 80px;
-}
-.card-img {
-    border: 10px solid #233D4D;
 }
 main section img {
     box-sizing: border-box;
@@ -68,6 +57,7 @@ footer{
     padding-top: 2%;
     padding-bottom:2%;
     font-size: 60%;
+    margin-top: 150px;
 }
 .button-box, .join{
     background-color: #FCCA46;
@@ -76,4 +66,18 @@ footer{
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+}
+.card-img{
+    width: 300px;
+    
+    border: 10px solid #233D4D;
+}
+.mountains{
+    width: 100%;
+    grid-template-columns: 1/4;
 }
