@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 500px;
+    
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #929292;
+}
+
+.first{
+    font-size: 90px;
+    padding-bottom: 200px;
+}
+.second{
+    font-size: 50px;
+}
+h1{
+    font-size: 90px;
+}
+button{
+    background-color: #0076b6;
+    color: white;
+    font-size: 20px;
+    width: 70px;
+}
