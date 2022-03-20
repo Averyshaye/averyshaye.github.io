@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+}
+.home-img{
+    width: 100%;
+}
+header{
+    background-color: #E7C04B;
+    color: black;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 55px;
+}
+
+footer{
+    background-color: #E7C04B;
+    padding: 25px 50px;
+    padding-top:15px ;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+.browse-button{
+    background-color: #A43312;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px ;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+#home{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#truck-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    width: 100%;
+}
+#truck-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+.truckfour{
+    margin-top: 50px;
+}
+.home-grid{
+    display: grid;
+    
+}
