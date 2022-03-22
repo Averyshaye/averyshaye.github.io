@@ -62,6 +62,9 @@ footer{
 .truckfour{
     margin-top: 50px;
 }
+.truckfour:hover{opacity: 0.7;
+
+}
 .home-grid{
     display: grid;
     }
