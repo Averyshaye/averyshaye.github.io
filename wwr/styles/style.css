@@ -1,3 +1,4 @@
+
 header{
     display: grid;
     grid-template-columns: 150px auto;
@@ -32,9 +33,11 @@ header{
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+
     
 }
 body {
+    font-family: 'Shadows Into Light', cursive;
     background-color: white; 
     text-align:center;
     font-family: 'Lato', sans-serif;
@@ -122,6 +125,7 @@ nav a{
     text-decoration: none;
     padding: 35px;
 }
+
 nav a:hover {
 
     color: #ffffff;
